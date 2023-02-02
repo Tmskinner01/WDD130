@@ -1,0 +1,28 @@
+
+body {
+    background-color: rgb(110, 101, 101);
+    margin: 0;
+}
+#hero-img {
+    width: 100%;
+}
+content {
+    margin: 0 auto;
+    text-align: center;
+}
+.graphic-container img {
+    border-radius: 50%;
+    border: 10px solid rgb(63, 53, 70);
+    width: 15%;
+    margin: 10px auto;
+}
+img {
+    margin: 0 auto;
+}
+div{
+    text-align: center;
+    margin: 20px 0
+}
+body {
+    width: 100%;
+}
