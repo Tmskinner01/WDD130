@@ -54,6 +54,7 @@ footer {
 }
 .home-title {
     color: #18b8e9;
+    font-family: var(--heading-font);
 }
 .msg h2 {
     color:#18b8e9
