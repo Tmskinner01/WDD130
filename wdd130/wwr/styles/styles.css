@@ -24,8 +24,9 @@ nav a {
 main section {
     text-align: center;
 }
-.background {
+#background {
     height: 725px;
+    background-color: #48BFE3; 
 }
 body {
     background-color:rgb(214, 247, 255) ;
@@ -57,9 +58,6 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: #48BFE3;
     color: white;
-}
-#background {
-    background-color: #48BFE3; ;
 }
 .msg {
     background-color: #72EFDD;
