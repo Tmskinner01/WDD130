@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+#card {
+    width: 25%;
+    border-radius: 5;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+#card-footer {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+p {
+    padding: 30px;
+}
+#left-card {
+    grid-column: 1/2;
+    background-color: darkslateblue;
+    outline: 2px solid white;
+    width: 100%;
+}
+#center-card {
+    grid-column: 2/3;
+    background-color: darkslateblue;
+    outline: 2px solid white;
+    width: 100%;
+}
+#right-card {
+    grid-column: 3/4;
+    background-color: darkslateblue;
+    outline: 2px solid white;
+    width: 100%;
+}
+.top-text {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0px;
+}
+.bottom-text {
+    color: white;
+    padding: 5px;
+}
+h4 {
+    margin: 10px;
+}
