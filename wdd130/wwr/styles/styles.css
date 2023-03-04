@@ -198,7 +198,7 @@ nav {
 }
 .rivers-grid {
     display: grid;
-    grid-template-columns: 630px, 1fr, 1fr, 1fr, 630px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
     grid-template-rows: repeat(45, 50px);
     margin-top: 150px;
     
@@ -298,6 +298,11 @@ nav {
 
 /* media query*/ 
 
+@media screen and (max-width: 1475px) {
+    .salmon-river-text, .desolation-canyon-text, .grand-canyon-text {
+        font-size: smaller;
+    }
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -339,13 +344,25 @@ nav {
         margin-top: 25px;
     }
     .salmon-river-text {
-        font-size: smaller;
+        font-size: x-small;
+        padding: 15px;
     }
     .desolation-canyon-text {
-        font-size: smaller;
+        font-size: x-small;
+        padding: 15px;
     }
     .grand-canyon-text {
-       font-size: smaller;
+       font-size:x-small;
+       padding: 15px;
+    }
+    #salmon-river-img, #desolation-canyon-img, #grand-canyon-img {
+        width: 300px;
+    }
+    .rivers-title {
+        font-size: 40px;
+    }
+    .salmon-river-title, .grand-canyon-title, .desolation-canyon-title {
+        font-size: smaller;
     }
 }
 
