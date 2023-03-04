@@ -282,7 +282,7 @@ nav {
 .grand-canyon-title {
     grid-column: 2/6;
     grid-row: 35/38;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .rivers-title {
     color: #48BFE3;
