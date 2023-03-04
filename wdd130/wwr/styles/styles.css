@@ -253,7 +253,7 @@ nav {
 }
 .salmon-river-text {
     grid-column: 2/6;
-    grid-row: 3/14;
+    grid-row: 3/12;
     z-index: 2;
     padding: 20px;
 }
@@ -337,6 +337,15 @@ nav {
     }
     footer {
         margin-top: 25px;
+    }
+    .salmon-river-text {
+        font-size: smaller;
+    }
+    .desolation-canyon-text {
+        font-size: smaller;
+    }
+    .grand-canyon-text {
+       font-size: smaller;
     }
 }
 
