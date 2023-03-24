@@ -28,32 +28,32 @@
     <!-- Full-width images with number text -->
     <div class="mySlides">
       <div class="numbertext">1 / 6</div>
-        <img src="images/skitarii_serpents.jpg" style="width:100%">
+        <img src="images/skitarii_serpents.jpg" alt="Skitarii Serpents" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">2 / 6</div>
-        <img src="images/spider_gallery.jpg" style="width:100%">
+        <img src="images/spider_gallery.jpg" alt="Spider Queen of Mirkwood" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">3 / 6</div>
-        <img src="images/chariots.jpg" style="width:100%">
+        <img src="images/chariots.jpg" alt="Khandish Kings" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">4 / 6</div>
-        <img src="images/keeper_of_dungeons.jpeg" style="width:100%">
+        <img src="images/keeper_of_dungeons.jpeg" alt="Keeper of the Dungeons" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">5 / 6</div>
-        <img src="images/delta_squad_edited.jpg" style="width:100%">
+        <img src="images/delta_squad_edited.jpg" alt="Delta Squad" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">6 / 6</div>
-        <img src="images/duck_meck.jpg" style="width:100%">
+        <img src="images/duck_meck.jpg" alt='"Blitzquacker" Helverin' style="width:100%">
     </div>
   
     <!-- Next and previous buttons -->
@@ -88,21 +88,6 @@
     </div>
     
   </div>
-        <!--<div class="gallery-box">
-            <img class="gallery-img" src="images/hero.jpg" alt="ad-mech">
-            <h2 class="gallery-title">The Skitarii Serpents</h2>
-            <p class="gallery-caption">This fierce set of models was my first step into Kill Team. I wanted to make them stand out from the usual red color scheme for Adeptus Mechanicus. I really enjoyed cluttering their bases with scrap metal and gears to give them that scrap yard aesthetic.</p>
-        </div>
-        <div class="gallery-box">
-            <img class="gallery-img" src="images/spider.jpg" alt="spider">
-            <h2 class="gallery-title">The Spider Queen of Mirkwood</h2>
-            <p class="gallery-caption">I was never a fan of the offical Spider Queen model from GW's line, so I gathered stl files to make my own. I love the corrupted look the crystal shards give to this model and really enjoyed the elevation added with the base. This is still one of my favorite evil models for MESBG.</p>
-        </div>
-        <div class="gallery-box">
-            <img class="gallery-img" src="images/chariots.jpg" alt="chariots">
-            <h2 class="gallery-title">Khandish Kings</h2>
-            <p class="gallery-caption">These conversions were quite fun, and these two are the centerpieces of our Khand-Easterling armies. I really enjoyed the airbrush fade and decal work on their banners.</p>
-        </div>-->
     </main>
     <footer>
         <p>ToddsHobbyHideout 2023 - Todd Skinner</p>
@@ -120,37 +105,35 @@
         </div>
     </footer>
     </div>
+    <script>let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }</script>
 </body>
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
 </html>
