@@ -15,7 +15,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: black;
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
     padding: 35PX;
     
 }
@@ -27,7 +27,7 @@ nav a:hover {
 nav {
     display: flex;
     justify-content: space-around;
-    opacity: .7
+    
 }
 .logo {
     width: 80px;
@@ -39,9 +39,11 @@ nav {
     align-self: center;
     
 }
+#home-nav {
+    opacity: .87;
+}
 header {
     background-color: #F47C00;
-    opacity: .85;
     display: grid;
     grid-template-columns: 150px auto;
     z-index: 3;
@@ -52,6 +54,9 @@ body {
     font-family: var(--paragraph-font);
     margin: 0;
     padding: 0;
+}
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
 }
 h2 {
     margin: 0;
@@ -99,6 +104,7 @@ h2 {
     grid-column: 2/3;
     margin: 0 auto;
     
+    
 }
 #hero-box p {
     
@@ -113,6 +119,7 @@ h2 {
     padding: 10px;
     margin: auto;
     border-radius: 10%;
+    font-family: var(--heading-font);
 }
 .button-box a {
     text-decoration: none;
