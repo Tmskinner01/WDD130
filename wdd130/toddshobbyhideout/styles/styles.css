@@ -365,7 +365,10 @@ footer a:hover {
         display: block;
         height: auto;
     }
-   
+
+   #welcome-text-box {
+        margin-bottom: 25px;
+   }
     #hero-section {
         margin-top: 0;
     }
@@ -376,6 +379,7 @@ footer a:hover {
         background-color: #222;
         border: 5px solid #F47C00;
         border-radius: 2%;
+        margin-top: -75px;
     }
     nav, footer {
         flex-direction: column;
@@ -385,19 +389,7 @@ footer a:hover {
         display: block;
         padding: 15px;
     }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
+
     #background {
         display: none;
     }
