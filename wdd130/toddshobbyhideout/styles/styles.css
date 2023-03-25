@@ -362,10 +362,11 @@ footer a:hover {
 
 /* media query for mobile */
 @media screen and (max-width: 900px) {
-    #hero-section, #home-grid, #header-box {
+    #hero-section, #home-grid, #header-box, .supplies-grid {
         display: block;
         height: auto;
     }
+   
     #hero-section {
         margin-top: 0;
     }
