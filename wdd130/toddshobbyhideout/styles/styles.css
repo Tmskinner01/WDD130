@@ -126,16 +126,14 @@ h2 {
 
 /* Home page layout*/
 
-#welcome-box {
+#home-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 100px 2fr 100px;
 }
 #welcome-text-box {
     background-color: #F4C303;
     border-bottom: 5px solid #F47C00;
     grid-column: 1/2;
-    grid-row: 2/3;
     box-shadow: 0px 0px 10px;
     padding: 15px;
     font-size: .8em;
@@ -144,7 +142,6 @@ h2 {
 #home-grid img {
     width: 100%;
     grid-column: 2/3;
-    grid-row: 1/4;
     border-radius: 10%;
     box-shadow: 0px 0px 10px;
 }
@@ -399,17 +396,8 @@ footer a:hover {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
     #background {
         display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
     }
     footer {
         margin-top: 25px;
