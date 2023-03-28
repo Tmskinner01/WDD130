@@ -469,9 +469,14 @@ footer a:hover {
         transform: scale(1.1);
     }
     .technique-text-left, .technique-text-right {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 15px;
         margin: 0 auto;
+    }
+    #technique-header p {
+        padding: 15px;
+    }
+    #technique-header h1 {
+        padding: 15px;
     }
    #welcome-text-box {
         margin-bottom: 25px;
